@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Jays Media
+Jays Media is a YouTube clone app built with React that allows users to browse, search, and watch videos.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installation
+To install Jays Media, follow these steps:
 
-## Available Scripts
+1. Clone the repository: git clone https://github.com/7Jay-Lee7/jays-media.git
+2. Navigate to the project directory: cd jays-media
+3. Install the dependencies: npm install
+4. Head to [Rapid API](https://rapidapi.com/ytdlfree/api/youtube-v31?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=referral&utm_campaign=DevRel%2F) and you want to click on GET Suggested Video and on the right-hand side, there will be some Json and you want to get yout API-KEY from 'X-RapidAPI-Key': line. 
+5. Create a .env file in the project root directory with the following environment variables:
+6. REACT_APP_RAPID_API_KEY=<your_rapid_api_key>
 
-In the project directory, you can run:
+## Usage
+To start the app, run the following command:
+npm start
+This will start the app and open it in your default browser at http://localhost:3000.
 
-### `npm start`
+## Features
+Jays Media currently supports the following features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Search for videos using the YouTube Data API v3
+2. View a list of search results with video thumbnails, titles, and channel information
+3. Click on a video to watch it in a video player
+4. Browse recommended videos on the video player page
+5. Use the responsive design on different screen sizes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
+Jays Media was built with the following technologies:
 
-### `npm test`
+React
+React Router
+Axios
+YouTube Data API v3 via [Rapid API](https://rapidapi.com/ytdlfree/api/youtube-v31?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=referral&utm_campaign=DevRel%2F)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contributing
+Contributions to Jays Media are welcome! To contribute, follow these steps:
 
-### `npm run build`
+## Fork the project
+Create a feature branch: git checkout -b feature/new-feature
+Make your changes and commit them: git commit -am 'Add new feature'
+Push to the branch: git push origin feature/new-feature
+Submit a pull request
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+Jays Media is licensed under the MIT license. See LICENSE for details.
